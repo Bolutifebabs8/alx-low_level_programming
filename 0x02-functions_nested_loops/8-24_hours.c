@@ -20,7 +20,7 @@ void jack_bauer(void)
 			int j = (h % 10);
 			int x = (m / 10);
 			int y = (m % 10);
-			
+
 			putchar(i + '0');
 			putchar(j + '0');
 			putchar(':');
