@@ -9,3 +9,4 @@ int print_sign(int n);
 int _isalpha(int c);
 int _abs(int c);
 int print_last_digit(int n);
+void jack_bauer(void);
