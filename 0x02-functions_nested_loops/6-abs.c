@@ -10,5 +10,5 @@
 
 int _abs(int c)
 {
-	printf("%i", abs(c));
+	return (abs(c));
 }
