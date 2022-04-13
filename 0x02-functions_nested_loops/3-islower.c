@@ -10,12 +10,13 @@
 
 int _islower(int c)
 {
+	//c is the variable to be examined
 	if (islower(c))
 	{
 		return (1);
 	}
 	else
 	{
-		return(0);
+		return (0);
 	}
 }
