@@ -35,6 +35,11 @@ void print_times_table(int n)
 				{
 					putchar(k + '0');
 				}
+				
+				if (j != n)
+				{
+					putchar(',');
+					putchar(' ');
 			}
 		}
 	}
