@@ -20,21 +20,21 @@ void times_table(void)
 			{
 				if (j > 1)
 				{
-					putchar(' ');
+					_putchar(' ');
 				}
-				putchar(k + '0');
+				_putchar(k + '0');
 			}
 			else
 			{
-				putchar(k / 10 + '0');
-				putchar(k % 10 + '0');
+				_putchar(k / 10 + '0');
+				_putchar(k % 10 + '0');
 			}
 			if (j != 9)
 			{
-				putchar(',');
-				putchar(' ');
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
