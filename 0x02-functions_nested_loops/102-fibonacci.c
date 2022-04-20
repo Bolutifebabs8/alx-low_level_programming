@@ -12,12 +12,12 @@ int main(void)
 	int b = 2;
 	int i, s;
 
-	printf("%d, %d, ", a , b);
+	printf("%d, %d, ", a, b);
 
 	for (i = 0; i < 50; i++)
 	{
 		s = a + b;
-		if (i = 49)
+		if (i == 49)
 		{
 			printf("%d", s);
 		}
