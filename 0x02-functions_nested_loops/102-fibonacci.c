@@ -8,9 +8,10 @@
 
 int main(void)
 {
-	int a = 1;
-	int b = 2;
-	int i, s;
+	long a = 1;
+	long b = 2;
+	int i;
+	long s;
 
 	printf("%d, %d, ", a, b);
 
