@@ -27,4 +27,5 @@ int main(void)
 	while (c < 4000000);
 
 	printf("%ld\n", sum);
+	return (0);
 }
