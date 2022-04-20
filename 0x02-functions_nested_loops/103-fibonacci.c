@@ -14,8 +14,7 @@ int main(void)
 	int c;
 	long sum = 2;
 
-	do
-	{
+	do{
 		c = a + b;
 		if ((c % 2) == 0)
 		{
@@ -23,8 +22,7 @@ int main(void)
 		}
 		a = b;
 		b = c;
-	}
-	while (c < 4000000);
+	}while (c < 4000000);
 
 	printf("%ld\n", sum);
 	return (0);
