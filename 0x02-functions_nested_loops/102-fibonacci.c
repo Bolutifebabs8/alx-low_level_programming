@@ -12,12 +12,19 @@ int main(void)
 	int b = 2;
 	int i, s;
 
-	printf("%i, %i, ", a , b);
+	printf("%d, %d, ", a , b);
 
 	for (i = 0; i < 50; i++)
 	{
 		s = a + b;
-		printf("%i, ", s);
+		if (i = 49)
+		{
+			printf("%d", s);
+		}
+		else
+		{
+			printf("%d, ", s);
+		}
 		a = b;
 		b = s;
 	}
