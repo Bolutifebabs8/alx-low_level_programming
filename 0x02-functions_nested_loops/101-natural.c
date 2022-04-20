@@ -18,9 +18,11 @@ int main(void)
 			s += i;
 		}
 	}
-	putchar((s / 1000) + '0');
-	putchar(((s / 100)% 10) + '0');
-	putchar(((s / 10)% 10) + '0');
+	putchar((s / 100000) + '0');
+	putchar(((s / 10000) % 10) + '0');	
+	putchar(((s / 1000) % 10) + '0');
+	putchar(((s / 100) % 10) + '0');
+	putchar(((s / 10) % 10) + '0');
 	putchar((s % 10) + '0');
 	putchar('\n');
 	return (0);
