@@ -13,18 +13,18 @@ int main(void)
 	int i;
 	long s;
 
-	printf("%d, %d, ", a, b);
+	printf("%ld, %ld, ", a, b);
 
 	for (i = 0; i < 50; i++)
 	{
 		s = a + b;
 		if (i == 49)
 		{
-			printf("%d", s);
+			printf("%ld", s);
 		}
 		else
 		{
-			printf("%d, ", s);
+			printf("%ld, ", s);
 		}
 		a = b;
 		b = s;
