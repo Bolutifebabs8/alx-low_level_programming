@@ -16,10 +16,10 @@ int main(void)
 
 	printf("%ld, %ld, ", a, b);
 
-	for (i = 0; i < 93; i++)
+	for (i = 0; i < 96; i++)
 	{
 		c = a + b;
-		if (i == 92)
+		if (i == 95)
 		{
 			printf("%ld", c);
 		}
