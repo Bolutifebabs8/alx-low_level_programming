@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	int a, i;
+	int i;
 	int s = 0;
 
-	for (i = 0, i < 1024, i++)
+	for (i = 0; i < 1024; i++)
 	{
 		if (i % 3 == 0 || i % 5 == 0)
 		{
@@ -23,4 +23,5 @@ int main(void)
 	putchar(((s / 10)% 10) + '0');
 	putchar((s % 10) + '0');
 	putchar('\n');
+	return (0);
 }
