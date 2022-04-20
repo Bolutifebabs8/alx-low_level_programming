@@ -19,7 +19,7 @@ int main(void)
 	for (i = 0; i < 96; i++)
 	{
 		c = a + b;
-		if (i = 95)
+		if (i == 95)
 		{
 			printf("%ld", c);
 		}
