@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 50 Fibonacci numbers, starting with 1 and 2
+ * main - prints the first 50 Fibonacci numbers
+ * starting with 1 and 2
  *
- * Returns: Always 0.
+ * Return: Always 0.
  */
 
 int main(void)
@@ -15,10 +16,10 @@ int main(void)
 
 	printf("%ld, %ld, ", a, b);
 
-	for (i = 0; i < 50; i++)
+	for (i = 0; i < 48; i++)
 	{
 		s = a + b;
-		if (i == 49)
+		if (i == 47)
 		{
 			printf("%ld", s);
 		}
