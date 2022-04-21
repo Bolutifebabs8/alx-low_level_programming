@@ -13,7 +13,7 @@
 void rev_string(char *s)
 {
 	int i;
-	int k = strlen(s);
+	int k = (strlen(s) / 2);
 
 	for (i = 0; i < k; i++)
 	{
