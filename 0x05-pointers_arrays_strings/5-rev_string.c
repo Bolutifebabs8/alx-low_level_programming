@@ -20,8 +20,8 @@ void rev_string(char *s)
 	{
 		char m;
 
-		m = s[i];  // holds the first char in m
-		s[i] = s[j - 1];   //replaces the first char with the last one
-		s[j - 1] = m;  //replaces the last char with the first one
+		m = s[i];
+		s[i] = s[j - 1];
+		s[j - 1] = m;
 	}
 }
