@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * puts2 -  prints every other character of a string, 
+ * puts2 -  prints every other character of a string,
  * starting with the first character.
  *
  * @str: String to be printed.
@@ -16,7 +16,7 @@ void puts2(char *str)
 	int i;
 	int k = strlen(str);
 
-	for (i = 0; i < k; i+=2)
+	for (i = 0; i < k; i += 2)
 	{
 		putchar(str[i]);
 	}
