@@ -16,12 +16,9 @@ void puts2(char *str)
 	int i;
 	int k = strlen(str);
 
-	for (i = 0; i < k; i++)
+	for (i = 0; i < k; i+=2)
 	{
-		if ((str[i] % 2) == 0)
-		{
-			putchar(str[i]);
-		}
+		putchar(str[i]);
 	}
 	putchar('\n');
 }
