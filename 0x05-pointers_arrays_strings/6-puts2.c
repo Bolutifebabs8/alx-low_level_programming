@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /**
@@ -17,7 +18,7 @@ void puts2(char *str)
 
 	for (i = 0; i < k; i++)
 	{
-		if ((s[i] % 2) == 0)
+		if ((str[i] % 2) == 0)
 		{
 			putchar(s[i]);
 		}
