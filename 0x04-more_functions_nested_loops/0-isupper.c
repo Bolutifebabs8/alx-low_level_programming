@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 #include "main.h"
 
 /**
@@ -12,6 +11,12 @@
 
 int _isupper(int c)
 {
-	int i = isupper(c);
-	return (i);
+	if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	}
+	else
+	{
+		return(0);
+	}
 }
