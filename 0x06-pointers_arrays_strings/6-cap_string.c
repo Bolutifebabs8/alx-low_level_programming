@@ -40,5 +40,5 @@ char *cap_string(char *c)
 				}
 		}
 	}
-	return (n);
+	return (c);
 }
