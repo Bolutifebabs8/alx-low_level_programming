@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_number - prints # using _putchar function
@@ -18,7 +17,7 @@ void print_number(int n)
 	if (ones < 0)
 	{
 		ones *= -1, copy *= -1, n *= -1;
-		putchar('-');
+		_putchar('-');
 	}
 
 	if (copy > 0)
@@ -30,10 +29,10 @@ void print_number(int n)
 		while (size > 0)
 		{
 			nth = n / size;
-			putchar('0' + nth);
+			_putchar('0' + nth);
 			n -= nth * size;
 			size /= 10;
 		}
 	}
-	putchar('0' + ones);
+	_putchar('0' + ones);
 }
