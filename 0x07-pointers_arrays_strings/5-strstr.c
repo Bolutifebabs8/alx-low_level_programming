@@ -13,7 +13,7 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	int i;
+	char i;
 
 	i = strstr(haystack, needle);
 
