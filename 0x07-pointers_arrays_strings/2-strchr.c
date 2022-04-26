@@ -21,5 +21,5 @@ char *_strchr(char *s, char c)
 		}
 		s[i] = s[i + 1];
 	}
-	return NULL;
+	/*return NULL;*/
 }
