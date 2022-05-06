@@ -30,11 +30,7 @@ char *create_array(unsigned int size, char c)
 		}
 		else
 		{
-			while (i < size)
-			{
-				ar[i] = c;
-				i++;
-			}
+			ar = c;
 		}
 	}
 	
