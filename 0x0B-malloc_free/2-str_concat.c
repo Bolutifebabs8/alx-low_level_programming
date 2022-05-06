@@ -37,7 +37,7 @@ char *str_concat(char *s1, char *s2)
 		while (s2[l] != '\0')
 		{
 			ar[k + l] = s2[l];
-			l++
+			l++;
 		}
 	}
 	return (ar);
