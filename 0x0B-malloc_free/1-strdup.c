@@ -32,9 +32,9 @@ char *_strdup(char *str)
 		}
 		else
 		{
-			while (j < i)
+			while (str[j] != '\0')
 			{
-				ar[i] = str[i];
+				ar[j] = str[j];
 				j++;
 			}
 		}
